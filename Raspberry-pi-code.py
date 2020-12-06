@@ -1,5 +1,5 @@
 import mysql.connector
-from test_1 import ph_status, ec_status, temp_status
+from read_data import ph_status, ec_status, temp_status
 from Adafruit_CharLCD import Adafruit_CharLCD
 import serial, time
 import seeed_dht
