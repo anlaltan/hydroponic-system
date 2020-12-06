@@ -67,10 +67,10 @@ def SetPh(binary, val):
 def SetLights(binary, val):
     if binary == True:
         if val == "turn on":
-            #ser.write("lights_on".encode())
+            ser.write("lights_on".encode())
             print("lights on")
         elif val == "turn off":
-            #ser.write("lights_off".encode())
+            ser.write("lights_off".encode())
             print("lights off")
 
 #def Timer(binary, val):
